@@ -13,7 +13,7 @@ Visit the 'Basic Counter' [here](https://sanjanasmenon.github.io/Basic-JS-CSS-HT
 ### Random Hex Color Generator
 Inspired by a beginner tutorial by [@freeCodeCamp.org on Youtube](https://www.youtube.com/@freecodecamp). A website that generates a randomly generated hex code upon user input. 
 
-Visit the 'Random Hex Color Generator'[here](https://sanjanasmenon.github.io/Basic-JS-CSS-HTML-Projects/Random%20Color%20Generator/)
+Visit the 'Random Hex Color Generator' [here](https://sanjanasmenon.github.io/Basic-JS-CSS-HTML-Projects/Random%20Color%20Generator/)
 
 ### 'My Favorite Artists' Page
 A website that gives a basic introduction to some of my favorite musical artists at the time of the site's creation! Here, I really experimented mixing website design with one of my favorite passions which is music. 
