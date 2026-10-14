@@ -1,7 +1,7 @@
 # Basic Projects Implementing JS, CSS, and HTML
 
 ## Overall Description
-These are some projects that I've created with JS, CSS, and HTML. They're all rather foundational, though some implement more complexity than others (namely, the "Random Album Generator page). I've decided to put them together in one repository for simplicity sake, making it easier to reach all my foundational projects in one place. 
+These are some projects that I've created with JS, CSS, and HTML. They're all rather foundational, though some implement more complexity than others (namely, the 'Random Album Generator'). I've decided to put them together in one repository for simplicity sake, making it easier to reach all my foundational projects in one place. 
 
 ## Individual Descriptions
 
