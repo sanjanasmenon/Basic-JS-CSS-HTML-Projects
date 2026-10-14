@@ -1,0 +1,229 @@
+body {
+    background-color: rgb(11, 11, 11);
+}
+
+/* 
+==============================
+========= Home Page ==========
+==============================
+*/
+
+
+#home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 98vh;
+    margin: 0;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    align-items: center;
+    font-size: 18px;
+}
+
+#page-title {
+    margin-bottom: 100px;
+    font-size: 95px;
+    font-family: "Rubik Iso", system-ui;
+    color: rgb(220, 212, 212);
+    text-shadow: #7A144A 4px 4px 20px;
+}
+
+#introduction, #disclaimer {
+    margin-right: 300px;
+    margin-left: 300px;
+    color: rgb(197, 188, 188);
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+}
+
+#introduction {
+    font-size: 20px;
+}
+
+.tooltip {
+    position: sticky;
+    display: inline-block;
+    cursor: pointer;
+    direction: unset;
+}
+
+#note {
+    border-bottom: 1px dotted;
+    font-weight: bold;
+    color: #1d499d;
+    margin-right: 20px;
+}
+
+.tooltiptext {
+    display: none;
+    width: 300px;
+    position: absolute;
+    left: 100%; /* Specifies left of the hover text */
+    top: 50%; /* Specifies top position of hover text */
+    background-color: rgb(48, 47, 47);
+    padding: 10px;
+    border-radius: 0px;
+    font-size: 15px;
+}
+
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: 86%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent rgb(48, 47, 47) transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    display: inline-block;
+}
+
+
+a {
+    color: #7A144A;
+}
+
+a:active {
+    color: #1d499d;
+}
+
+.file-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#csvFile {
+    display: none;
+}
+
+#csvFile-btn {
+    font-size: 25px;
+    font-family: "Rubik Iso", system-ui;
+    background-color: rgb(220, 212, 212);
+    border: none;
+    border-radius: 4%;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+#csvFile-btn:hover {
+    background-color: #49147A;
+    border: 1.5px solid #8740ca;
+    box-shadow: #6d26af 2px 3px 30px;
+    color: rgb(181, 178, 178);
+}
+
+#csvFile-btn:active {
+    background-color: #24083f;
+    transition: 100ms;
+}
+
+#randomize-btn {
+    display: none;
+    padding: 8px 10px;
+    font-size: 15px;
+    font-family: "Rubik Iso", system-ui;
+    background-color: rgb(220, 212, 212);
+    border: none;
+    border-radius: 4%;
+    padding: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+#randomize-btn:hover {
+    background-color: #14387A;
+    border: 1.5px solid #2957ad;
+    box-shadow: #305fb7 2px 3px 20px;
+    color: rgb(181, 178, 178);
+}
+
+/* 
+==============================
+======== Second Page =========
+==============================
+*/
+
+#randomizer-page {
+    display: none;
+    height: 98vh;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#album-name {
+    font-size: 80px;
+    font-family: "Rubik Iso", system-ui;
+    margin-bottom: 40px;
+    color: white;
+    text-shadow: #7A144A 4px 4px 7px;
+    text-align: center;
+}
+
+.img-parent {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+#cd-case-overlay {
+    position: absolute;
+    top: 0;
+    left: -50px;
+}
+
+#album-cover {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    top: 33px;
+    left: 21px;
+}
+
+#artist-name {
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: "Rubik Iso", system-ui;
+    color: white;
+}
+
+#album-type {
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-family: "Noto Sans", sans-serif;
+    font-style: bold;
+    color: white;
+}
+
+#randomize-btn-2 {
+    padding: 8px 10px;
+    font-size: 20px;
+    font-family: "Rubik Iso", system-ui;
+    background-color: rgb(220, 212, 212);
+    border: none;
+    border-radius: 4%;
+    padding: 10px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+#randomize-btn-2:hover {
+    background-color: #14387A;
+    border: 1.5px solid #2957ad;
+    box-shadow: #305fb7 2px 3px 20px;
+    color: rgb(181, 178, 178);
+}

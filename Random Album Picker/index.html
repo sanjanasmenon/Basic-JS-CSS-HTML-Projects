@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.6.1/papaparse.min.js"></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+    <title>Random Album Generator</title>
+</head>
+<body>
+    <div id="home-page">
+        <div id="info">
+            <h1 id="page-title">Random Album Generator</h1>
+            <div id="introduction">
+                Ever look at your music collection and think to yourself, "wow. I'm in the mood to play an album, but I have no idea WHAT to play!" Well, you've come to the right place!
+                Just upload a .csv file in the same format as 
+                <a href="https://docs.google.com/spreadsheets/d/1aUAwW2aiojBo2W9EzjllkzkptDCEGFxaeAlGJg9gwE0/edit?usp=sharing" target="_blank">this spreadsheet</a>
+                and generate an album! 
+            </div>
+            <div id="disclaimer" class="tooltip"> 
+                <span id="note">
+                    <br>PLEASE NOTE:
+                </span> 
+                <span class="tooltiptext">
+                    Spreadsheet MUST include Artist name and Album title. In the spreadhseet they must be titled "Artist" and "Album". Adding the "Image" and 
+                    "Type" parameters are optional, but more for quality of life. The randomizer will still work without it, it just won't look as pretty... 
+                </span>
+            </div>
+        </div>
+        <label class="file-upload">
+            <input type="file" id="csvFile" accept=".csv" /> <!-- This is the upload details for the file upload, this should be display: none in js -->
+            <input type="button" id="csvFile-btn" value="Choose File" onclick="document.getElementById('csvFile').click();" /> <!-- And this is the actual button prompt -->
+            <button id="randomize-btn" >Randomize</button>
+        </label>
+    </div>
+
+
+    <div id="randomizer-page">
+        <span id="album-name">
+            ALBUM NAME
+        </span>
+        <div class="img-parent">
+            <img src="./imgs/No Image.png" alt="Album Cover" id="album-cover">
+            <img src="./imgs/CD case overlay.png" id="cd-case-overlay">
+        </div>
+         <span id="artist-name">
+            ARTIST NAME
+        </span>
+        <span id="album-type">
+    
+        </span>
+        <button id="randomize-btn-2">Randomize Again</button>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

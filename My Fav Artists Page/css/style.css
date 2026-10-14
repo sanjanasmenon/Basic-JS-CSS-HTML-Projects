@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 98vh;
+    background-color: rgb(209, 206, 203);
+}
+
+.limelight-regular {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.buttons {
+    display: flex;
+    margin-top: auto;
+    padding-top: 15px;
+    
+}
+
+.back img, .forward img {
+    width: 50px;
+    height: auto;
+}
+
+.back, .forward {
+    align-self: flex-end;
+    background-color: transparent;
+    border: none;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.title {
+    /* padding-bottom: 20px; */
+    font-family: Limelight;
+    color:rgb(28, 28, 28);
+    font-size: 40px;
+    margin-bottom: 0%;
+}
+
+#subtitle {
+    padding-bottom: 20px;
+    font-family: Limelight;
+}
+
+#artist-photo {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%; /* Make a circle */
+    box-shadow: 10px 10px rgb(41, 58, 35);
+}
+
+.artist-box {
+    width: 800px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgb(113, 135, 105);
+    flex-direction: column;
+    padding-top: 40px;
+    border-radius: 10%;
+    text-align: justify;
+}
+
+#artist-name {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-family: Limelight;
+    font-size: 30px;
+    color: rgb(18, 33, 13);
+}
+
+#artist-lyric {
+    font-size: 20px;
+    padding-bottom: 13px;
+    font-family: Helvetica;
+    color: rgb(30, 45, 25);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#artist-genre, #artist-album, #artist-desc {
+    font-size: 17px;
+    font-family: Helvetica;
+    color:rgb(28, 28, 28);
+    font-weight: bold;
+}
+
+#artist-desc {
+    padding-top: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: normal;
+}
+
+#photo-disclaimer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-family: Helvetica;
+    color: rgb(158, 148, 138);
+    font-size: 15px;
+}
+
+

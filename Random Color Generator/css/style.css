@@ -1,0 +1,56 @@
+* {
+    margin: 0 auto;
+}
+
+/*
+=========
+Nav Bar
+=========
+*/
+
+nav {
+    background-color: #ffffff; /* Sets background color of the bar */
+    
+}
+.nav-bar { /* Aligns the content in the nav bar and sets its size */
+    align-content: center; 
+    text-align: center;
+    min-height: 7vh;
+}
+
+/*
+===============
+Hex Color Text
+==============
+*/
+
+button { 
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgb(255 255 255 /30%); /* Makes the button slightly white and slightly transparent */ 
+    border-style: solid; /* Makes button border completely solid */
+    border-color: black;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px; /* Creates curved edges */
+}
+
+.information-container {
+    padding-bottom: 10px;
+}
+
+main { /* Aligns the main content to the center of the page */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 93vh; 
+    flex-direction:column; /* Sets the items to be on top of each other */
+}
+

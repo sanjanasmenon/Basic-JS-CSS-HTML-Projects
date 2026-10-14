@@ -1,0 +1,25 @@
+
+body {
+    display: flex;
+    align-items: center; /* Centers vertically */
+    justify-content: center; /* Centers horizontally */
+    height: 100vh;
+}
+
+.main-counter {
+    display: flex;
+    justify-content: center;
+}
+
+#num {
+    font-size: 50px
+}
+
+.btn {
+    font-size: large;
+    background-color:cornsilk;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1.5px;
+    padding: 3px 10px;
+}
