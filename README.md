@@ -6,7 +6,7 @@ These are some projects that I've created with JS, CSS, and HTML. They're all ra
 ## Individual Descriptions
 
 ### Basic Counter
-Inspired by a beginner tutorial by [@freeCodeCamp.org on Youtube]("https://www.youtube.com/@freecodecamp"). Simply a basic counter website that takes input from the user and counts up, down, and resets accordingly. 
+Inspired by a beginner tutorial by [@freeCodeCamp.org on Youtube](https://www.youtube.com/@freecodecamp). Simply a basic counter website that takes input from the user and counts up, down, and resets accordingly. 
 
 Visit the 'Basic Counter' [here]("https://sanjanasmenon.github.io/Basic-JS-CSS-HTML-Projects/Basic%20Counter/")
 
