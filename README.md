@@ -19,8 +19,3 @@ Visit the 'Random Hex Color Generator' [here](https://sanjanasmenon.github.io/Ba
 A website that gives a basic introduction to some of my favorite musical artists at the time of the site's creation! Here, I really experimented mixing website design with one of my favorite passions which is music. 
 
 Visit the 'My Favorite Artists' site [here](https://sanjanasmenon.github.io/Basic-JS-CSS-HTML-Projects/My%20Fav%20Artists%20Page/)
-
-### Random Album Generator
-As someone with a decently large physical music collection, sometimes I run into the conundrum of wanting to put an album on, but not necessarily knowing which one I'm in the mood for. So, I decided to design a site that takes in personal data about a collection (in the form of a .csv file) and allows for random generation from that list. I experimented with 'PapaParse' as my avenue to read the csv file uploaded by the user. I also played around more with some CSS design elements, some standouts being transitions for the buttons and using my own design skills to upload a drawing I did of a CD case to add a little cosmetic flare. 
-
-Visit the 'Random Album Generator' [here](https://sanjanasmenon.github.io/Basic-JS-CSS-HTML-Projects/Random%20Album%20Picker/)
